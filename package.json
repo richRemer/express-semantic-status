@@ -1,0 +1,20 @@
+{
+  "name": "express-http",
+  "version": "0.0.1",
+  "description": "canned Express.js responses for HTTP status codes",
+  "type": "module",
+  "exports": "./http.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Zingle/express-http.git"
+  },
+  "author": "Richard Remer <reanjr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zingle/express-http/issues"
+  },
+  "homepage": "https://github.com/Zingle/express-http#readme"
+}
