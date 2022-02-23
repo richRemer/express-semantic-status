@@ -1,9 +1,9 @@
 {
-  "name": "express-http",
+  "name": "express-semantic-status",
   "version": "0.0.1",
-  "description": "canned Express.js responses for HTTP status codes",
+  "description": "semantic Express.js responses for HTTP status codes",
   "type": "module",
-  "exports": "./http.js",
+  "exports": "./semantic-status.js",
   "scripts": {
     "test": "mocha"
   },
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Zingle/express-http/issues"
   },
-  "homepage": "https://github.com/Zingle/express-http#readme"
+  "homepage": "https://github.com/Zingle/express-http#readme",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^9.2.1",
+    "mock-express-request": "^0.2.2",
+    "mock-express-response": "^0.3.0"
+  }
 }
