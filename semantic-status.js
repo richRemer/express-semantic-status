@@ -112,8 +112,8 @@ export function permanentRedirect(location) {
 
 // client error status codes
 
-export function badRequest() {
-  return respond(400, "Bad Request");
+export function badRequest(reason) {
+  return respond(400, `Bad Request: ${reason}`);
 }
 
 export function unauthorized(scheme, params={}) {
