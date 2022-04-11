@@ -1,6 +1,6 @@
 {
   "name": "express-semantic-status",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "semantic Express.js responses for HTTP status codes",
   "type": "module",
   "exports": "./semantic-status.js",
